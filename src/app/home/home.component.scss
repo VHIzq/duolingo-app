@@ -1,0 +1,26 @@
+main{
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+      width: 180px;
+    }
+
+    h2{
+      color: var(--primary-color);
+      font-weight: 800;
+      font-size: 35px;
+    }
+
+    p{
+      color: var(--secondary-font );
+    }
+  }
+}
